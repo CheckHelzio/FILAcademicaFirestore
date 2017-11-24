@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_coordinador"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_centerVertical="true"
+        android:src="#cccccc" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@+id/iv_coordinador"
+        android:orientation="vertical">
+
+        <TextView
+            android:foreground="#cccccc"
+            android:background="#cccccc"
+            android:textColor="#cccccc"
+            android:textColorHint="#cccccc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Ponenasdasdtes:"
+            android:layout_marginBottom="3dp"
+            android:textSize="8sp" />
+
+
+        <TextView
+            android:foreground="#cccccc"
+            android:background="#cccccc"
+            android:id="@+id/tv_nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="8sp"
+            android:maxLines="1"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

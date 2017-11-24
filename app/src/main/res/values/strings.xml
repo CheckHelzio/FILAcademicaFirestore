@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">FIL Académica</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="title_activity_sedes">Sedes de la FIL Académica</string>
+    <string name="transition_date_dialog_helzio" translatable="false">transition_date_dialog_helzio</string>
+</resources>
